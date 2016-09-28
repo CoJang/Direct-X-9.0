@@ -1,0 +1,13 @@
+; 
+; B3Yena 라이브러리 
+;
+; Update. 2013.07. Kihong Kim / mad_dog@hanmail.net / onlysonim@gmail.com
+;
+
+* Yena 라이브러리 폴더 입니다.
+* 교육의 원활한 진행을 위한 서비스 클래스/함수들입니다.
+* 그려려니 하고 사용합시다. 
+* 추후에 다시 교육을 진행할 것입니다.
+
+
+- 문서 끝 - 

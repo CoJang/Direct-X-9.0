@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demo_Ext_Files">
+      <UniqueIdentifier>{7c832e06-720a-4937-a6d4-2eb29af48b14}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Demo_Ext_Files\Units">
+      <UniqueIdentifier>{c8d914f2-aa7e-4eb7-b2bc-c74e11bd5f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo_Ext_Files\Map">
+      <UniqueIdentifier>{f99a04af-f0ca-4c05-81c6-03fb5acbe4a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo_Ext_Files\Trees">
+      <UniqueIdentifier>{e4d0dbc2-4084-44fc-aeb4-ac82e9de2bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo_Ext_Files\WindMill">
+      <UniqueIdentifier>{41609652-117b-4a8b-a4aa-752213c67ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic_Frame_Works">
+      <UniqueIdentifier>{ba795a91-0696-4015-be09-cf07366433e3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Basic_Frame_Works\B3Yena">
+      <UniqueIdentifier>{c1ca3248-18be-4918-ac15-35b71ba6cec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo_Ext_Files\Utilities">
+      <UniqueIdentifier>{5203feea-4df4-48ed-8569-de7205a261b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Render.cpp">
+      <Filter>Demo_Ext_Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Hero.cpp">
+      <Filter>Demo_Ext_Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Map.cpp">
+      <Filter>Demo_Ext_Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Tree.cpp">
+      <Filter>Demo_Ext_Files\Trees</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Windmill.cpp">
+      <Filter>Demo_Ext_Files\WindMill</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Device.cpp">
+      <Filter>Basic_Frame_Works</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\main.cpp">
+      <Filter>Basic_Frame_Works</Filter>
+    </ClCompile>
+    <ClCompile Include="B3Yena\BAxis.cpp">
+      <Filter>Basic_Frame_Works\B3Yena</Filter>
+    </ClCompile>
+    <ClCompile Include="B3Yena\BGrid.cpp">
+      <Filter>Basic_Frame_Works\B3Yena</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TripleWindmill.cpp">
+      <Filter>Demo_Ext_Files\WindMill</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\TripleWindmill2.cpp">
+      <Filter>Demo_Ext_Files\WindMill</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Normal.cpp">
+      <Filter>Demo_Ext_Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Vertex.cpp">
+      <Filter>Demo_Ext_Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Box.cpp">
+      <Filter>Demo_Ext_Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Season.cpp">
+      <Filter>Demo_Ext_Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Plane.cpp">
+      <Filter>Demo_Ext_Files\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Dwarp.cpp">
+      <Filter>Demo_Ext_Files\Units</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Render.h">
+      <Filter>Demo_Ext_Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Hero.h">
+      <Filter>Demo_Ext_Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Map.h">
+      <Filter>Demo_Ext_Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Tree.h">
+      <Filter>Demo_Ext_Files\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Windmill.h">
+      <Filter>Demo_Ext_Files\WindMill</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Device.h">
+      <Filter>Basic_Frame_Works</Filter>
+    </ClInclude>
+    <ClInclude Include="B3Yena\B3define.h">
+      <Filter>Basic_Frame_Works\B3Yena</Filter>
+    </ClInclude>
+    <ClInclude Include="B3Yena\BAxis.h">
+      <Filter>Basic_Frame_Works\B3Yena</Filter>
+    </ClInclude>
+    <ClInclude Include="B3Yena\BGrid.h">
+      <Filter>Basic_Frame_Works\B3Yena</Filter>
+    </ClInclude>
+    <ClInclude Include="B3Yena\Yena.h">
+      <Filter>Basic_Frame_Works\B3Yena</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Normal.h">
+      <Filter>Demo_Ext_Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Vertex.h">
+      <Filter>Demo_Ext_Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Box.h">
+      <Filter>Demo_Ext_Files\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Season.h">
+      <Filter>Demo_Ext_Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Plane.h">
+      <Filter>Demo_Ext_Files\Units</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="B3Yena\Yena 라이브러리 폴더입니다.txt">
+      <Filter>Basic_Frame_Works\B3Yena</Filter>
+    </None>
+  </ItemGroup>
+</Project>
